@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyPokédex" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/toolbarRed</item>
+        <item name="colorPrimaryVariant">@color/drawerRed</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/yellowText</item>
+        <item name="colorSecondaryVariant">@color/yellowText</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonStyle">@style/CustomButton</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="EditCheckbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="colorAccent">@color/drawerRed</item>
+    </style>
+
+    <style name="EditAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorAlertDialogListItem">@color/almostWhite</item>
+        <item name="textColorAlertDialogListItem">@color/almostWhite</item>
+        <item name="android:textColorPrimary">@color/almostWhite</item>
+        <item name="android:background">@color/lighterBlack</item>
+        <item name="colorAccent">@color/drawerRed</item>
+        <item name="colorControlActivated">@color/drawerRed</item>
+    </style>
+
+    <style name="EditTextCursor" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorAccent">@color/drawerRed</item>
+        <item name="colorControlActivated">@color/drawerRed</item>
+    </style>
+
+    <style name="AppTheme.TextFloatLabelAppearance" parent="TextAppearance.Design.Hint">
+        <!-- Floating label appearance here -->
+        <item name="android:textColor">@color/yellowText</item>
+    </style>
+
+    <style name="AppTheme.TextErrorAppearance" parent="TextAppearance.Design.Error">
+        <!-- Error message appearance here -->
+        <!--<item name="android:background">@color/dark_red</item>-->
+        <item name="android:textColor">@color/drawerRed</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

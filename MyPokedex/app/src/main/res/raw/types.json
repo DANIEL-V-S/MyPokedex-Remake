@@ -1,0 +1,114 @@
+{
+  "typesBr": [
+    {
+      "NAME": "Aço"
+    },
+    {
+      "NAME": "Água"
+    },
+    {
+      "NAME": "Dragão"
+    },
+    {
+      "NAME": "Elétrico"
+    },
+    {
+      "NAME": "Fada"
+    },
+    {
+      "NAME": "Fantasma"
+    },
+    {
+      "NAME": "Fogo"
+    },
+    {
+      "NAME": "Gelo"
+    },
+    {
+      "NAME": "Grama"
+    },
+    {
+      "NAME": "Inseto"
+    },
+    {
+      "NAME": "Lutador"
+    },
+    {
+      "NAME": "Normal"
+    },
+    {
+      "NAME": "Pedra"
+    },
+    {
+      "NAME": "Psíquico"
+    },
+    {
+      "NAME": "Solo"
+    },
+    {
+      "NAME": "Sombrio"
+    },
+    {
+      "NAME": "Venenoso"
+    },
+    {
+      "NAME": "Voador"
+    }
+  ],
+  "typesEn": [
+    {
+      "NAME": "Bug"
+    },
+    {
+      "NAME": "Dark"
+    },
+    {
+      "NAME": "Dragon"
+    },
+    {
+      "NAME": "Electric"
+    },
+    {
+      "NAME": "Fairy"
+    },
+    {
+      "NAME": "Fighting"
+    },
+    {
+      "NAME": "Fire"
+    },
+    {
+      "NAME": "Flying"
+    },
+    {
+      "NAME": "Ghost"
+    },
+    {
+      "NAME": "Grass"
+    },
+    {
+      "NAME": "Ground"
+    },
+    {
+      "NAME": "Ice"
+    },
+    {
+      "NAME": "Normal"
+    },
+    {
+      "NAME": "Poison"
+    },
+    {
+      "NAME": "Psychic"
+    },
+    {
+      "NAME": "Rock"
+    },
+    {
+      "NAME": "Steel"
+    },
+    {
+      "NAME": "Water"
+    }
+  ]
+}

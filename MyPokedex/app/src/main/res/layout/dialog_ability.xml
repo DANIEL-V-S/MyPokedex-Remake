@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilAbilityName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtAbilityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/dialog_Ability_edtName_hint"
+                android:inputType="textCapSentences"
+                android:maxLength="50"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilAbilityDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="512"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilAbilityName">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtAbilityDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/dialog_Ability_edtDescription_hint"
+                android:inputType="textCapSentences"
+                android:maxLength="512"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

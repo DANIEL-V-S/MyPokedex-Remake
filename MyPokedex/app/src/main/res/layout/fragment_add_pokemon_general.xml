@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentAddPokemonGeneral">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:padding="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPokemonDex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="9"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPokemonDex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/activity_Pokemon_edtDex_hint"
+                android:inputType="number"
+                android:maxLength="9"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPokemonName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilPokemonDex">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPokemonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/activity_Pokemon_edtName_hint"
+                android:inputType="textCapSentences"
+                android:maxLength="50"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPokemonSpecies"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilPokemonName">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPokemonSpecies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/activity_Pokemon_edtSpecies_hint"
+                android:inputType="textCapWords"
+                android:maxLength="50"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPokemonCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilPokemonSpecies">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPokemonCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/activity_Pokemon_edtCategory_hint"
+                android:inputType="textCapSentences"
+                android:maxLength="50"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPokemonRegion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilPokemonCategory">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPokemonRegion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/activity_Pokemon_edtRegion_hint"
+                android:inputType="textCapWords"
+                android:maxLength="50"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPokemonHeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="9"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilPokemonRegion">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPokemonHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/activity_Pokemon_edtHeight_hint"
+                android:inputType="numberDecimal"
+                android:maxLength="9"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPokemonWeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="9"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilPokemonHeight">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPokemonWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/activity_Pokemon_edtWeight_hint"
+                android:inputType="numberDecimal"
+                android:maxLength="9"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPokemonGender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilPokemonWeight">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPokemonGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/activity_Pokemon_edtGender_hint"
+                android:inputType="textCapSentences"
+                android:maxLength="50"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPokemonDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="512"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilPokemonGender">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPokemonDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/activity_Pokemon_edtDescription_hint"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences"
+                android:maxLength="512"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

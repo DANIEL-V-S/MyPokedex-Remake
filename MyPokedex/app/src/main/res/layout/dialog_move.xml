@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilMoveName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtMoveName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/dialog_Move_edtName_hint"
+                android:inputType="textCapSentences"
+                android:maxLength="50"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilMoveDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="512"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilMoveName">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtMoveDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/dialog_Move_edtDescription_hint"
+                android:inputType="textCapSentences"
+                android:maxLength="512"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilMovePower"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="8"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilMoveDescription">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtMovePower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/dialog_Move_edtPower_hint"
+                android:inputType="number"
+                android:maxLength="8"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilMoveAccuracy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="8"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilMovePower">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtMoveAccuracy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/dialog_Move_edtAccuracy_hint"
+                android:inputType="number"
+                android:maxLength="8"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilMovePP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="8"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilMoveAccuracy">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtMovePP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/dialog_Move_edtPP_hint"
+                android:inputType="number"
+                android:maxLength="8"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilMovePriority"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="8"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilMovePP">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtMovePriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/dialog_Move_edtPriority_hint"
+                android:inputType="number"
+                android:maxLength="8"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilMoveCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/almostWhite"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:counterTextColor="@color/almostWhite"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/AppTheme.TextErrorAppearance"
+            app:errorTextColor="@color/drawerRed"
+            app:hintTextAppearance="@style/AppTheme.TextFloatLabelAppearance"
+            app:hintTextColor="@color/almostWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilMovePriority">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtMoveCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="@string/dialog_Move_edtCategory_hint"
+                android:inputType="textCapSentences"
+                android:maxLength="50"
+                android:textColor="@color/white"
+                android:textColorHint="@color/almostWhite"
+                android:textSize="20sp"
+                android:theme="@style/EditTextCursor"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

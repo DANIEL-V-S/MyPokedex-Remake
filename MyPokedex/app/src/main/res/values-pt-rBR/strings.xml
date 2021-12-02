@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_drawer">Menu fechado</string>
+    <string name="open_drawer">Menu aberto</string>
+    <string name="open_settings">Abrir configurções</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="error_occurred">Um erro ocorreu</string>
+    <string name="add">Adicionar</string>
+    <string name="update">Atualizar</string>
+    <string name="delete">Excluir</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="save">Salvar</string>
+    <string name="reset">Reiniciar</string>
+    <string name="link">Vincular</string>
+    <string name="unlink">Desvincular</string>
+    <string name="link_">Vincular…</string>
+    <string name="edit_">Editar…</string>
+    <string name="unlink_">Desvincular…</string>
+    <string name="photo">Foto</string>
+    <string name="no_thanks">Não, obrigado</string>
+    <string name="nav_header_title">MyPokédex por</string>
+    <string name="nav_header_subtitle_0">Treinador</string>
+    <string name="nav_header_subtitle_1">Treinadora</string>
+    <string name="nav_header_subtitle_2">Treinadorx</string>
+    <string name="navMoves">Movimentos</string>
+    <string name="navAbilities">Habilidades</string>
+    <string name="navTypes">Tipos</string>
+    <string name="navSettings">Configurações</string>
+    <string name="navAbout">Sobre</string>
+    <string name="home_welcome_0">Olá, seja bem-vindo ao MyPokédex!\n\nEste é um aplicativo no qual é possível gerenciar uma pokédex do zero em um só lugar.\nDivirta-se criando suas próprias criaturas e compartilhe sua experiência com os seus amigos.</string>
+    <string name="home_welcome_1">Olá, seja bem-vinda ao MyPokédex!\n\nEste é um aplicativo no qual é possível gerenciar uma pokédex do zero em um só lugar.\nDivirta-se criando suas próprias criaturas e compartilhe sua experiência com os seus amigos.</string>
+    <string name="home_welcome_2">Olá, seja bem-vindx ao MyPokédex!\n\nEste é um aplicativo no qual é possível gerenciar uma pokédex do zero em um só lugar.\nDivirta-se criando suas próprias criaturas e compartilhe sua experiência com os seus amigos.</string>
+    <string name="settings_txtName_hint">Digite seu nome aqui</string>
+    <string name="settings_name_empty">Seu nome não pode ser vazio</string>
+    <string name="settings_spnPronoun">Lista de pronomes</string>
+    <string name="settings_pronoun"> = Como você se identifica? = </string>
+    <string name="settings_pronoun_0">Ele/Dele</string>
+    <string name="settings_pronoun_1">Ela/Dela</string>
+    <string name="settings_pronoun_2">Elx/Delx</string>
+    <string name="settings_updated">Configurações atualizadas com sucesso</string>
+    <string name="btnImportOriginal">Importar dados da Série Original</string>
+    <string name="settings_btnImportOriginal_results_0">Todos os dados foram importados com sucesso</string>
+    <string name="settings_btnImportOriginal_results_1">Alguns dados foram importados com sucesso (não todos)</string>
+    <string name="settings_btnImportOriginal_results_2">Falha em importar dados…</string>
+    <string name="settings_btnZerar">Apagar todos os dados</string>
+    <string name="settings_btnZerar_confirmation_title">Apagar todos os dados?</string>
+    <string name="settings_btnZerar_confirmation_message">Você tem certeza de que deseja apagar todos os dados gravados neste aplicativo?\n(Esta mudança é irreversível)</string>
+    <string name="about_warning">MyPokédex é um aplicativo não-oficial, gratuito, desenvolvido por um fã e não é afiliado ou suportado pela Nintendo, GAME FREAK ou The Pokémon Company por quaisquer meios.\nAlgumas imagens usadas no aplicativo podem conter copyright, mas são suportadas pelo fair use.\nNenhuma infração de copyright foi intencionada.\n\n© 1995 – 2021 Nintendo/Creatures Inc./GAME FREAK Inc.</string>
+    <string name="about_developer">Aplicativo desenvolvido por:\nDaniel Vendramim Soares\n(Danrio Kario)</string>
+    <string name="under_development_title">Em desenvolvimento</string>
+    <string name="under_development_message">Esta função ainda está em desenvolvimento… Por favor, espere até a próxima atualização. ^^</string>
+    <string name="permission_needed_title">Permissão necessária…</string>
+    <string name="camera_permission_needed_message">Para usar a câmera é pedido ao usuário para permitir o acesso da câmera no dispositivo</string>
+    <string name="go_back_warning_title">Voltar para a página anterior?</string>
+    <string name="go_back_warning_message">Você tem certeza de que deseja voltar para a página anterior?\nQuaisquer mudanças não salvas serão perdidas</string>
+    <string name="exit_app_warning_title">Sair do aplicativo?</string>
+    <string name="exit_app_warning_message">Você tem certeza de que deseja sair do aplicativo?</string>
+
+    <string-array name="settings_btnImportOriginal">
+        <item>@string/btnImportOriginal</item>
+        <item>Importar tipos originais</item>
+        <item>Importar movimentos originais</item>
+        <item>Importar habilidades originais</item>
+        <item>Importar pokémon originais</item>
+        <item>Importar todos os dados originais</item>
+    </string-array>
+
+    <string-array name="settings_btnImportOriginal_languages">
+        <item>Em qual idioma você gostaria de importar os dados?</item>
+        <item>Em Inglês</item>
+        <item>Em Português do Brasil</item>
+    </string-array>
+
+    <string name="no_pokemon">Não há pokémon na Pokédex</string>
+    <string name="no_type">Não há tipo na Pokédex</string>
+    <string name="no_ability">Não há habilidade na Pokédex</string>
+    <string name="no_move">Não há movimento na Pokédex</string>
+    <string name="no_update">Nada foi atualizado…</string>
+    <string name="no_pokemon_found">Nenhum pokémon foi encontrado</string>
+    <string name="no_type_found">Nenhum tipo foi encontrado</string>
+    <string name="no_ability_found">Nenhuma habilidade foi encontrado</string>
+    <string name="no_move_found">Nenhum movimento foi encontrado</string>
+
+    <string name="dialog_what_to_do_title">O que você gostaria de fazer?</string>
+    <string name="dialog_what_to_do_view_details">Ver detalhes</string>
+    <string name="dialog_what_to_do_update">Atualizar este item</string>
+    <string name="dialog_what_to_do_delete">Excluir este item</string>
+
+    <string name="dialog_addType_title">Adicionando um tipo…</string>
+    <string name="dialog_addType_success">Novo tipo adicionado com sucesso</string>
+    <string name="dialog_addType_failed">Falha em adicionar um novo tipo</string>
+
+    <string name="dialog_addAbility_title">Adicionando uma habilidade…</string>
+    <string name="dialog_addAbility_success">Nova habilidade adicionada com sucesso</string>
+    <string name="dialog_addAbility_failed">Falha em adicionar uma nova habilidade</string>
+
+    <string name="dialog_addMove_title">Adicionando um movimento…</string>
+    <string name="dialog_addMove_success">Novo movimento adicionado com sucesso</string>
+    <string name="dialog_addMove_failed">Falha em adicionar um novo movimento</string>
+
+    <string name="activity_addPokemon_title">Adicionando um pokémon…</string>
+    <string name="activity_addPokemon_tab_0">Geral</string>
+    <string name="activity_addPokemon_tab_1">Tipo</string>
+    <string name="activity_addPokemon_tab_2">Atributos</string>
+    <string name="activity_addPokemon_tab_3">Fotos</string>
+    <string name="activity_addPokemon_success">Novo pokémon adicionado com sucesso</string>
+    <string name="activity_addPokemon_failed">Falha em adicionar um pokémon</string>
+    <string name="activity_addPokemon_failed_1">Digite um número na pokédex e um nome</string>
+    <string name="activity_addPokemon_failed_2">Este nome já pertence a outro pokémon</string>
+    <string name="activity_addPokemon_dialog_message">Registrando pokémon: </string>
+
+    <string name="dialog_updateType_title">Atualizando um tipo…</string>
+    <string name="dialog_updateType_success">Tipo atualizado com sucesso</string>
+    <string name="dialog_updateType_failed">Falha em atualizar um tipo</string>
+
+    <string name="dialog_updateAbility_title">Atualizando uma habilidade…</string>
+    <string name="dialog_updateAbility_success">Habilidade atualizada com sucesso</string>
+    <string name="dialog_updateAbility_failed">Falha em atualizar uma habilidade</string>
+
+    <string name="dialog_updateMove_title">Atualizando um movimento…</string>
+    <string name="dialog_updateMove_success">Movimento atualizado com sucesso</string>
+    <string name="dialog_updateMove_failed">Falha em atualizar um movimento</string>
+
+    <string name="activity_updatePokemon_title">Atualizando um pokémon…</string>
+    <string name="activity_updatePokemon_dialog_message">Atualizando pokémon para: </string>
+    <string name="activity_updatePokemon_success">Pokémon atualizado com sucesso</string>
+    <string name="activity_updatePokemon_failed">Falha em atualizar um pokémon</string>
+    <string name="activity_updatePokemon_failed_1">Digite um número na pokédex e um nome</string>
+    <string name="activity_updatePokemon_failed_2">Este nome já pertence a outro pokémon</string>
+    <string name="activity_updatePokemon_reset_title">Reiniciando progresso…</string>
+    <string name="activity_updatePokemon_reset_message">Você tem certeza de que deseja reiniciar o seu progresso? Qualquer mudança não salva será perdida.</string>
+
+    <string name="dialog_deleteType_title">Excluindo um tipo…</string>
+    <string name="dialog_deleteType_message">Você tem certeza de que deseja excluir este tipo?</string>
+    <string name="dialog_deleteType_success">Tipo excluído com sucesso</string>
+    <string name="dialog_deleteType_failed">Falha em excluir um tipo</string>
+
+    <string name="dialog_deleteAbility_title">Excluindo uma habilidade…</string>
+    <string name="dialog_deleteAbility_message">Você tem certeza de que deseja excluir esta habilidade?</string>
+    <string name="dialog_deleteAbility_success">Habilidade excluída com sucesso</string>
+    <string name="dialog_deleteAbility_failed">Falha em excluir uma habilidade</string>
+
+    <string name="dialog_deleteMove_title">Excluindo um movimento…</string>
+    <string name="dialog_deleteMove_message">Você tem certeza de que deseja excluir este movimento?</string>
+    <string name="dialog_deleteMove_success">Movimento excluído com sucesso</string>
+    <string name="dialog_deleteMove_failed">Falha em excluir um movimento</string>
+
+    <string name="dialog_deletePokemon_title">Excluindo um pokémon…</string>
+    <string name="dialog_deletePokemon_message">Você tem certeza de que deseja excluir este pokémon?</string>
+    <string name="dialog_deletePokemon_success">Pokémon excluído com sucesso</string>
+    <string name="dialog_deletePokemon_failed">Falha em excluir um pokémon</string>
+
+    <string name="dialog_Type_edtType_hint">Nome do tipo</string>
+
+    <string name="dialog_Ability_edtName_hint">Nome da habilidade</string>
+    <string name="dialog_Ability_edtDescription_hint">Descrição da habilidade</string>
+
+    <string name="dialog_Move_edtName_hint">Nome do movimento</string>
+    <string name="dialog_Move_edtDescription_hint">Descrição do movimento</string>
+    <string name="dialog_Move_edtPower_hint">Poder do movimento</string>
+    <string name="dialog_Move_edtAccuracy_hint">Precisão do movimento (em %)</string>
+    <string name="dialog_Move_edtPP_hint">PP do movimento</string>
+    <string name="dialog_Move_edtPriority_hint">Prioridade do movimento</string>
+    <string name="dialog_Move_edtCategory_hint">Categoria do movimento</string>
+
+    <string name="activity_Pokemon_edtDex_hint">Número na Pokédex do pokémon</string>
+    <string name="activity_Pokemon_edtName_hint">Nome do pokémon</string>
+    <string name="activity_Pokemon_pickRegularPhoto">Escolher foto normal</string>
+    <string name="activity_Pokemon_pickShinyPhoto">Escolher foto shiny</string>
+    <string name="activity_Pokemon_takeRegularPhoto">Tirar nova foto normal</string>
+    <string name="activity_Pokemon_takeShinyPhoto">Tirar nova foto shiny</string>
+    <string name="activity_Pokemon_removeRegularPhoto">Remover foto normal</string>
+    <string name="activity_Pokemon_removeShinyPhoto">Remover foto shiny</string>
+    <string name="activity_Pokemon_removePhoto">Para remover uma foto: Pressione e segure uma foto</string>
+    <string name="activity_Pokemon_removePhotoWarning">Você tem certeza de que deseja remover esta foto?</string>
+    <string name="activity_Pokemon_btnChangeRegularPhoto">Mudar foto normal</string>
+    <string name="activity_Pokemon_btnChangeShinyPhoto">Mudar foto shiny</string>
+    <string name="activity_Pokemon_edtSpecies_hint">Espécie do pokémon</string>
+    <string name="activity_Pokemon_edtCategory_hint">Categoria do pokémon</string>
+    <string name="activity_Pokemon_edtRegion_hint">Região do pokémon</string>
+    <string name="activity_Pokemon_edtHeight_hint">Altura do pokémon (em metros)</string>
+    <string name="activity_Pokemon_edtWeight_hint">Peso do pokémon (em quilogramas)</string>
+    <string name="activity_Pokemon_edtGender_hint">Gênero do pokémon</string>
+    <string name="activity_Pokemon_edtDescription_hint">Descrição do pokémon</string>
+    <string name="activity_Pokemon_edtBaseHP_hint">Pontos de vida base do pokémon</string>
+    <string name="activity_Pokemon_edtBaseATK_hint">Ataque base do pokémon</string>
+    <string name="activity_Pokemon_edtBaseDEF_hint">Defesa base do pokémon</string>
+    <string name="activity_Pokemon_edtBaseSPATK_hint">Ataque especial base do pokémon</string>
+    <string name="activity_Pokemon_edtBaseSPDEF_hint">Defesa especial base do pokémon</string>
+    <string name="activity_Pokemon_edtBaseSPEED_hint">Velocidade base do pokémon</string>
+
+    <string name="activity_ViewAbility_normal_ability">Pokémon (Habilidade Normal)</string>
+    <string name="activity_ViewAbility_hidden_ability">Pokémon (Habilidade Escondida)</string>
+
+    <string name="activity_ViewMove_able">Pokémon que conseguem aprender</string>
+    <string name="activity_ViewMove_txtPower">Poder</string>
+    <string name="activity_ViewMove_txtAccuracy">Precisão</string>
+    <string name="activity_ViewMove_txtPP">PP</string>
+    <string name="activity_ViewMove_txtPriority">Prioridade</string>
+    <string name="activity_ViewMove_txtCategory">Categoria</string>
+
+    <string name="activity_ViewType_Pokemon_having">Pokémon que possuem este tipo</string>
+    <string name="activity_ViewType_Moves_having">Movimentos que possuem este tipo</string>
+
+    <string name="activity_ViewPokemon_species">Espécie</string>
+    <string name="activity_ViewPokemon_category">Categoria</string>
+    <string name="activity_ViewPokemon_region">Região</string>
+    <string name="activity_ViewPokemon_swap">Trocar</string>
+    <string name="activity_ViewPokemon_tab_0">Informações</string>
+    <string name="activity_ViewPokemon_tab_1">Movimentos</string>
+    <string name="activity_ViewPokemon_tab_2">Evoluções</string>
+    <string name="activity_ViewPokemon_tab_3">Formas</string>
+    <string name="activity_ViewPokemon_txtHeight">Altura</string>
+    <string name="activity_ViewPokemon_txtWeight">Peso</string>
+    <string name="activity_ViewPokemon_txtTypes">Tipo:</string>
+    <string name="activity_ViewPokemon_txtTypes_Plural">Tipos:</string>
+    <string name="activity_ViewPokemon_txtTypes_No_Type">Este pokémon não possui um tipo</string>
+    <string name="activity_ViewPokemon_txtAbilities">Habilidade:</string>
+    <string name="activity_ViewPokemon_txtAbilities_Plural">Habilidades:</string>
+    <string name="activity_ViewPokemon_txtAbilities_No_Type">Este pokémon não possui uma habilidade</string>
+    <string name="activity_ViewPokemon_txtHiddenAbilities">Habilidade Escondida:</string>
+    <string name="activity_ViewPokemon_txtHiddenAbilities_Plural">Habilidades Escondidas:</string>
+    <string name="activity_ViewPokemon_txtHiddenAbilities_No_Type">Este pokémon não possui uma habilidade escondida</string>
+    <string-array name="activity_ViewPokemon_txtStats">
+        <item>PV Base:</item>
+        <item>Ataque Base:</item>
+        <item>Defense Base:</item>
+        <item>Atq. Esp. Base:</item>
+        <item>Def. Esp. Base:</item>
+        <item>Velocidade Base:</item>
+    </string-array>
+
+    <string-array name="array_link_pokemon_to">
+        <item>Tipo</item>
+        <item>Habilidade</item>
+        <item>Habilidade Escondida</item>
+        <item>Movimento</item>
+        <item>Evolução</item>
+        <item>Forma</item>
+    </string-array>
+
+    <string-array name="link_pokemon_title">
+        <item>Vincular Pokémon ao Tipo</item>
+        <item>Vincular Pokémon à Habilidade</item>
+        <item>Vincular Pokémon à Habilidade Escondida</item>
+        <item>Vincular Pokémon ao Movimento</item>
+        <item>Vincular Pokémon à Evolução</item>
+        <item>Vincular Pokémon à Forma</item>
+    </string-array>
+
+    <string name="dialog_link_pokemon">Pokémon: </string>
+    <string name="dialog_link_pokemon_to_move_spinner_default"> = Escolha um movimento = </string>
+    <string name="dialog_link_pokemon_to_move_spinner">Lista de movimentos</string>
+    <string name="dialog_link_pokemon_to_evolution_spinner_default"> = Escolha um pokémon = </string>
+    <string name="dialog_link_pokemon_to_evolution_spinner">Lista de pokémon</string>
+    <string name="dialog_link_pokemon_to_form_spinner_default"> = Escolha um pokémon = </string>
+    <string name="dialog_link_pokemon_to_form_spinner">Lista de pokémon</string>
+    <string name="dialog_link_pokemon_to_move_failed">já sabia este movimento por</string>
+    <string name="dialog_link_pokemon_to_move_method">Método de Aprendizagem</string>
+    <string name="dialog_link_pokemon_to_evolution_method">Método de Evolução</string>
+    <string name="dialog_link_pokemon_to_form_method">Método da Forma</string>
+    <string name="dialog_link_pokemon_to_form_kind">Tipo da Forma</string>
+
+    <string name="dialog_unlink_pokemon_move_title">Desvincular Movimento do Pokémon?</string>
+    <string name="dialog_unlink_pokemon_move_message">Você tem certeza de que deseja desvincular este movimento do pokémon?</string>
+    <string name="dialog_unlink_pokemon_evolution_title">Desvincular Evolução do Pokémon?</string>
+    <string name="dialog_unlink_pokemon_evolution_message">Você tem certeza de que deseja desvincular esta evolução do pokémon?</string>
+    <string name="dialog_unlink_pokemon_form_title">Desvincular Forma do Pokémon?</string>
+    <string name="dialog_unlink_pokemon_form_message">Você tem certeza de que deseja desvincular esta forma do pokémon?</string>
+
+    <string-array name="array_link_type_to">
+        <item>Pokémon</item>
+        <item>Movimento</item>
+    </string-array>
+
+    <string-array name="link_type_title">
+        <item>Vincular Tipo ao Pokémon</item>
+        <item>Vincular Tipo ao Movimento</item>
+    </string-array>
+
+    <string name="dialog_link_type">Tipo: </string>
+
+    <string-array name="array_link_ability_to">
+        <item>Pokémon (Normal)</item>
+        <item>Pokémon (Escondida)</item>
+    </string-array>
+
+    <string-array name="link_ability_title">
+        <item>Vincular Habilidade Normal ao Pokémon</item>
+        <item>Vincular Habilidade Escondida ao Pokémon</item>
+    </string-array>
+
+    <string name="dialog_link_ability">Habilidade: </string>
+
+    <string-array name="array_link_move_to">
+        <item>Pokémon</item>
+        <item>Tipo</item>
+    </string-array>
+
+    <string-array name="link_move_title">
+        <item>Vincular Movimento ao Pokémon</item>
+        <item>Vincular Movimento ao Tipo</item>
+    </string-array>
+
+    <string name="dialog_link_move">Movimento: </string>
+    <string name="dialog_link_move_method">Método de Aprendizagem</string>
+    <string name="dialog_link_move_spinner">Lista de pokémon</string>
+    <string name="dialog_link_move_spinner_default"> = Escolha um pokémon = </string>
+    <string name="dialog_link_move_failed">já sabia este movimento por</string>
+    <string name="link_success">Vinculo criado com sucesso</string>
+
+    <string name="unlink_move_title">Desvincular Movimento ao Pokémon</string>
+</resources>

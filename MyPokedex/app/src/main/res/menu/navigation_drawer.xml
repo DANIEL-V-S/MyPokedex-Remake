@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHome"
+            android:checked="true"
+            android:icon="@drawable/home_icon"
+            android:title="@string/navHome" />
+        <item
+            android:id="@+id/navMyPokedex"
+            android:icon="@drawable/pokeball_icon"
+            android:title="@string/navMyPokedex" />
+        <item
+            android:id="@+id/navMoves"
+            android:icon="@drawable/move_icon"
+            android:title="@string/navMoves" />
+        <item
+            android:id="@+id/navAbility"
+            android:icon="@drawable/ability_icon"
+            android:title="@string/navAbilities" />
+        <item
+            android:id="@+id/navType"
+            android:icon="@drawable/type_icon"
+            android:title="@string/navTypes" />
+        <item
+            android:id="@+id/navSettings"
+            android:icon="@drawable/settings_icon"
+            android:title="@string/navSettings" />
+        <item
+            android:id="@+id/navAbout"
+            android:icon="@drawable/info_icon"
+            android:title="@string/navAbout" />
+    </group>
+</menu>

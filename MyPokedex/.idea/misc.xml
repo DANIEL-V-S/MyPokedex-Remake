@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/ability_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/add_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/borda_clara.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/camera_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/custom_button.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/custom_button_default.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/custom_button_disabled.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/custom_button_pressed.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/custom_dialog_shape.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/delete_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/edit_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/home_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/info_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/item_drawer_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/item_drawer_selected.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/item_drawer_selected_item.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/move_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/mypokedex_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/photo_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/pokeball_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/save_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/settings_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/drawable/type_icon.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/activity_add_pokemon.xml" value="0.19200000457763683" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/activity_main.xml" value="0.196875" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/checkbox_single_line_list.xml" value="0.196875" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/dialog_ability.xml" value="0.30000000715255754" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/dialog_move.xml" value="0.30000000715255754" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/dialog_type.xml" value="0.26400000629425063" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_ability.xml" value="0.196875" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_about.xml" value="0.24000000572204605" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_add_pokemon_general.xml" value="0.196875" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_add_pokemon_photo.xml" value="0.196875" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_add_pokemon_stats.xml" value="0.24000000572204605" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_add_pokemon_type.xml" value="0.196875" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_home.xml" value="0.196875" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_move.xml" value="0.196875" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_my_pokedex.xml" value="0.2160000051498414" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_settings.xml" value="0.30000000715255754" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/fragment_type.xml" value="0.196875" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/header_navigation_drawer.xml" value="0.19200000457763683" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/single_line_checkbox_list.xml" value="0.6000000143051151" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/single_line_list.xml" value="0.26400000629425063" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/layout/two_lines_list.xml" value="0.24000000572204605" />
+        <entry key="..\:/Users/Daniel/AndroidStudioProjects/MyPokedex/app/src/main/res/menu/menu_save.xml" value="0.196875" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/add_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/add_link_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/info_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/item_drawer_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/move_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/mypokedex_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/question_mark_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/reset_icon.xml" value="0.1296875" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/save_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/settings_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/swap_horiz_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/type_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/drawable/unlink_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/activity_add_pokemon.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/activity_edit_pokemon.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/activity_view_abilities.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/activity_view_ability.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/activity_view_move.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/activity_view_pokemon.xml" value="0.36455981941309257" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/activity_view_type.xml" value="0.25" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_ability.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_link_ability_to_pokemon.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_link_move_to_pokemon.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_link_move_to_type.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_link_pokemon_to_ability.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_link_pokemon_to_evolution.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_link_pokemon_to_form.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_link_pokemon_to_move.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_link_pokemon_to_type.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_link_type_to_move.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_link_type_to_pokemon.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_move.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_type.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialog_unlink_move_to_pokemon.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialogs/drawable/reset_icon.xml" value="0.2890625" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/dialogs/mipmap-anydpi-v26/ic_launcher.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_about.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_add_pokemon_general.xml" value="0.22" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_add_pokemon_photo.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_add_pokemon_type.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_move.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_settings.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_type.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_view_pokemon_evolution.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_view_pokemon_form.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_view_pokemon_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/fragment_view_pokemon_move.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/header_navigation_drawer.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/list_single_line.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/list_single_line_checkbox.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/list_two_lines.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/layout/list_two_lines_checkbox.xml" value="0.5" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/menu/menu_link.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/menu/menu_link_edit_unlink.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/menu/menu_link_unlink.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/menu/menu_save.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Daniel/Desktop/Outros/MyPokedex/app/src/main/res/menu/menu_save_and_reset.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/danie/Desktop/Android/MyPokedex/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/danie/Desktop/Android/MyPokedex/app/src/main/res/drawable/ic_launcher_background.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/danie/Desktop/Android/MyPokedex/app/src/main/res/layout/dialogs/mipmap-anydpi-v26/ic_launcher.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/danie/Desktop/Android/MyPokedex/app/src/main/res/layout/dialogs/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/danie/Desktop/Android/MyPokedex/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/danie/Desktop/Android/MyPokedex/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

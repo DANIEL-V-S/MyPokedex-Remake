@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MyPokédex</string>
+    <string name="pokeball" translatable="false">Pokéball</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="close_drawer">Close menu</string>
+    <string name="open_drawer">Open menu</string>
+    <string name="open_settings">Open settings</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="link">Link</string>
+    <string name="unlink">Unlink</string>
+    <string name="link_">Link…</string>
+    <string name="edit_">Edit…</string>
+    <string name="unlink_">Unlink…</string>
+    <string name="photo">Photo</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="nav_header_title">MyPokédex by</string>
+    <string name="nav_header_subtitle_0">Trainer</string>
+    <string name="nav_header_subtitle_1">Trainer</string>
+    <string name="nav_header_subtitle_2">Trainer</string>
+    <string name="navHome" translatable="false">Home</string>
+    <string name="navMyPokedex" translatable="false">MyPokédex</string>
+    <string name="navMoves">Moves</string>
+    <string name="navAbilities">Abilities</string>
+    <string name="navTypes">Types</string>
+    <string name="navSettings">Settings</string>
+    <string name="navAbout">About</string>
+    <string name="home_welcome_0">Hello, welcome to MyPokédex!\n\nThis application can help you manage your own pokédex from the scratch.\nEnjoy creating your own creatures and share them with your friends.</string>
+    <string name="home_welcome_1">Hello, welcome to MyPokédex!\n\nThis application can help you manage your own pokédex from the scratch.\nEnjoy creating your own creatures and share them with your friends.</string>
+    <string name="home_welcome_2">Hello, welcome to MyPokédex!\n\nThis application can help you manage your own pokédex from the scratch.\nEnjoy creating your own creatures and share them with your friends.</string>
+    <string name="settings_txtName_hint">Type your name here</string>
+    <string name="settings_name_empty">Your name can\'t be empty</string>
+    <string name="settings_spnPronoun">Pronouns list</string>
+    <string name="settings_pronoun"> = How do you identify as? = </string>
+    <string name="settings_pronoun_0">He/Him</string>
+    <string name="settings_pronoun_1">She/Her</string>
+    <string name="settings_pronoun_2">They/Them</string>
+    <string name="settings_updated">Settings updated successfully</string>
+    <string name="btnImportOriginal">Import data from the Original Series</string>
+    <string name="settings_btnImportOriginal_results_0">All data was imported successfully</string>
+    <string name="settings_btnImportOriginal_results_1">Some data was imported successfully (not all)</string>
+    <string name="settings_btnImportOriginal_results_2">Failed to import data…</string>
+    <string name="settings_btnZerar">Delete all data</string>
+    <string name="settings_btnZerar_confirmation_title">Delete all data?</string>
+    <string name="settings_btnZerar_confirmation_message">Are you sure you want to delete all data stored in this app?\n(This change is irreversible)</string>
+    <string name="about_warning">MyPokédex is an unofficial, free fan made app and is not affiliated or supported by Nintendo, GAME FREAK or The Pokémon Company in any way.\nSome images used in this app are copyrighted and are supported under fair use.\nNo copyright infringement intended.\n\n© 1995 – 2021 Nintendo/Creatures Inc./GAME FREAK Inc.</string>
+    <string name="about_developer">Application developed by:\nDaniel Vendramim Soares\n(Danrio Kario)</string>
+    <string name="under_development_title">Under development</string>
+    <string name="under_development_message">This function is still under development… Please wait until the next update. ^^</string>
+    <string name="permission_needed_title">Permission is needed…</string>
+    <string name="camera_permission_needed_message">To use the camera the user is required to allow this app to access the device\'s camera</string>
+    <string name="go_back_warning_title">Go back to the previous page?</string>
+    <string name="go_back_warning_message">Are you sure you want to go back to the previous page?\nAny unsaved changes will be lost</string>
+    <string name="exit_app_warning_title">Exit the application?</string>
+    <string name="exit_app_warning_message">Are you sure you want to exit the application?</string>
+
+    <string-array name="settings_btnImportOriginal">
+        <item>@string/btnImportOriginal</item>
+        <item>Import original types</item>
+        <item>Import original moves</item>
+        <item>Import original abilities</item>
+        <item>Import original pokémon</item>
+        <item>Import all original data</item>
+    </string-array>
+
+    <string-array name="settings_btnImportOriginal_languages">
+        <item>Which language would you like to import data?</item>
+        <item>In English</item>
+        <item>In Brazilian Portuguese</item>
+    </string-array>
+
+    <string name="no_pokemon">There is no pokémon in the Pokédex</string>
+    <string name="no_type">There is no type in the Pokédex</string>
+    <string name="no_ability">There is no ability in the Pokédex</string>
+    <string name="no_move">There is no move in the Pokédex</string>
+    <string name="no_update">Nothing was updated…</string>
+    <string name="no_pokemon_found">No pokémon were found</string>
+    <string name="no_type_found">No type were found</string>
+    <string name="no_ability_found">No ability were found</string>
+    <string name="no_move_found">No move were found</string>
+
+    <string name="dialog_what_to_do_title">What would you like to do?</string>
+    <string name="dialog_what_to_do_view_details">View details</string>
+    <string name="dialog_what_to_do_update">Update this item</string>
+    <string name="dialog_what_to_do_delete">Delete this item</string>
+
+    <string name="dialog_addType_title">Adding a type…</string>
+    <string name="dialog_addType_success">New type added successfully</string>
+    <string name="dialog_addType_failed">Failed to add a new type</string>
+
+    <string name="dialog_addAbility_title">Adding an ability…</string>
+    <string name="dialog_addAbility_success">New ability added successfully</string>
+    <string name="dialog_addAbility_failed">Failed to add a new ability</string>
+
+    <string name="dialog_addMove_title">Adding a move…</string>
+    <string name="dialog_addMove_success">New move added successfully</string>
+    <string name="dialog_addMove_failed">Failed to add a new move</string>
+
+    <string name="activity_addPokemon_title">Adding a pokémon…</string>
+    <string name="activity_addPokemon_tab_0">General</string>
+    <string name="activity_addPokemon_tab_1">Type</string>
+    <string name="activity_addPokemon_tab_2">Stats</string>
+    <string name="activity_addPokemon_tab_3">Photos</string>
+    <string name="activity_addPokemon_success">New pokémon added successfully</string>
+    <string name="activity_addPokemon_failed">Failed to add a pokémon</string>
+    <string name="activity_addPokemon_failed_1">Type a dex number and a name</string>
+    <string name="activity_addPokemon_failed_2">This name is already taken by another pokémon</string>
+    <string name="activity_addPokemon_dialog_message">Registering pokémon: </string>
+
+    <string name="dialog_updateType_title">Updating a type…</string>
+    <string name="dialog_updateType_success">Type updated successfully</string>
+    <string name="dialog_updateType_failed">Failed to update a type</string>
+
+    <string name="dialog_updateAbility_title">Updating an ability…</string>
+    <string name="dialog_updateAbility_success">Ability updated successfully</string>
+    <string name="dialog_updateAbility_failed">Failed to update an ability</string>
+
+    <string name="dialog_updateMove_title">Updating a move…</string>
+    <string name="dialog_updateMove_success">Move updated successfully</string>
+    <string name="dialog_updateMove_failed">Failed to update a move</string>
+
+    <string name="activity_updatePokemon_title">Updating a pokémon…</string>
+    <string name="activity_updatePokemon_dialog_message">Updating pokémon to: </string>
+    <string name="activity_updatePokemon_success">Pokémon updated successfully</string>
+    <string name="activity_updatePokemon_failed">Failed to update a pokémon</string>
+    <string name="activity_updatePokemon_failed_1">Type a dex number and a name</string>
+    <string name="activity_updatePokemon_failed_2">This name is already taken by another pokémon</string>
+    <string name="activity_updatePokemon_reset_title">Resetting progress…</string>
+    <string name="activity_updatePokemon_reset_message">Are you sure you want to reset your progress? Any unsaved changes will be lost.</string>
+
+    <string name="dialog_deleteType_title">Deleting a type…</string>
+    <string name="dialog_deleteType_message">Are you sure you want to delete this type?</string>
+    <string name="dialog_deleteType_success">Type deleted successfully</string>
+    <string name="dialog_deleteType_failed">Failed to delete a type</string>
+
+    <string name="dialog_deleteAbility_title">Deleting an ability…</string>
+    <string name="dialog_deleteAbility_message">Are you sure you want to delete this ability?</string>
+    <string name="dialog_deleteAbility_success">Ability deleted successfully</string>
+    <string name="dialog_deleteAbility_failed">Failed to delete an ability</string>
+
+    <string name="dialog_deleteMove_title">Deleting a move…</string>
+    <string name="dialog_deleteMove_message">Are you sure you want to delete this move?</string>
+    <string name="dialog_deleteMove_success">Move deleted successfully</string>
+    <string name="dialog_deleteMove_failed">Failed to delete a move</string>
+
+    <string name="dialog_deletePokemon_title">Deleting a pokémon…</string>
+    <string name="dialog_deletePokemon_message">Are you sure you want to delete this pokémon?</string>
+    <string name="dialog_deletePokemon_success">Pokémon deleted successfully</string>
+    <string name="dialog_deletePokemon_failed">Failed to delete a pokémon</string>
+
+    <string name="dialog_Type_edtType_hint">Type name</string>
+
+    <string name="dialog_Ability_edtName_hint">Ability name</string>
+    <string name="dialog_Ability_edtDescription_hint">Ability description</string>
+
+    <string name="dialog_Move_edtName_hint">Move name</string>
+    <string name="dialog_Move_edtDescription_hint">Move description</string>
+    <string name="dialog_Move_edtPower_hint">Move power</string>
+    <string name="dialog_Move_edtAccuracy_hint">Move accuracy (in %)</string>
+    <string name="dialog_Move_edtPP_hint">Move PP</string>
+    <string name="dialog_Move_edtPriority_hint">Move priority</string>
+    <string name="dialog_Move_edtCategory_hint">Move Category</string>
+
+    <string name="activity_Pokemon_edtDex_hint">Pokémon Pokédex number</string>
+    <string name="activity_Pokemon_edtName_hint">Pokémon name</string>
+    <string name="activity_Pokemon_pickRegularPhoto">Pick regular photo</string>
+    <string name="activity_Pokemon_pickShinyPhoto">Pick shiny photo</string>
+    <string name="activity_Pokemon_takeRegularPhoto">Take regular photo</string>
+    <string name="activity_Pokemon_takeShinyPhoto">Take shiny photo</string>
+    <string name="activity_Pokemon_removeRegularPhoto">Remove regular photo</string>
+    <string name="activity_Pokemon_removeShinyPhoto">Remove shiny photo</string>
+    <string name="activity_Pokemon_removePhoto">To remove a photo: Press and hold a photo</string>
+    <string name="activity_Pokemon_btnChangeRegularPhoto">Change regular photo</string>
+    <string name="activity_Pokemon_removePhotoWarning">Are you sure you want to remove this photo?</string>
+    <string name="activity_Pokemon_btnChangeShinyPhoto">Change shiny photo</string>
+    <string name="activity_Pokemon_edtSpecies_hint">Pokémon species</string>
+    <string name="activity_Pokemon_edtCategory_hint">Pokémon category</string>
+    <string name="activity_Pokemon_edtRegion_hint">Pokémon region</string>
+    <string name="activity_Pokemon_edtHeight_hint">Pokémon height</string>
+    <string name="activity_Pokemon_edtWeight_hint">Pokémon weight</string>
+    <string name="activity_Pokemon_edtGender_hint">Pokémon gender</string>
+    <string name="activity_Pokemon_edtDescription_hint">Pokémon description</string>
+    <string name="activity_Pokemon_edtBaseHP_hint">Pokémon base HP</string>
+    <string name="activity_Pokemon_edtBaseATK_hint">Pokémon base attack</string>
+    <string name="activity_Pokemon_edtBaseDEF_hint">Pokémon base defense</string>
+    <string name="activity_Pokemon_edtBaseSPATK_hint">Pokémon base special attack</string>
+    <string name="activity_Pokemon_edtBaseSPDEF_hint">Pokémon base special defense</string>
+    <string name="activity_Pokemon_edtBaseSPEED_hint">Pokémon base speed</string>
+
+    <string name="activity_ViewAbility_normal_ability">Pokémon (Normal Ability)</string>
+    <string name="activity_ViewAbility_hidden_ability">Pokémon (Hidden Ability)</string>
+
+    <string name="activity_ViewMove_able">Pokémon able to learn</string>
+    <string name="activity_ViewMove_txtPower">Power</string>
+    <string name="activity_ViewMove_txtAccuracy">Accuracy</string>
+    <string name="activity_ViewMove_txtPP">PP</string>
+    <string name="activity_ViewMove_txtPriority">Priority</string>
+    <string name="activity_ViewMove_txtCategory">Category</string>
+
+    <string name="activity_ViewType_Pokemon_having">Pokémon having this type</string>
+    <string name="activity_ViewType_Moves_having">Moves having this type</string>
+
+    <string name="activity_ViewPokemon_species">Species</string>
+    <string name="activity_ViewPokemon_category">Category</string>
+    <string name="activity_ViewPokemon_region">Region</string>
+    <string name="activity_ViewPokemon_swap">Swap</string>
+    <string name="activity_ViewPokemon_tab_0">Info</string>
+    <string name="activity_ViewPokemon_tab_1">Moves</string>
+    <string name="activity_ViewPokemon_tab_2">Evolutions</string>
+    <string name="activity_ViewPokemon_tab_3">Forms</string>
+    <string name="activity_ViewPokemon_txtHeight">Height</string>
+    <string name="activity_ViewPokemon_txtWeight">Weight</string>
+    <string name="activity_ViewPokemon_txtTypes">Type:</string>
+    <string name="activity_ViewPokemon_txtTypes_Plural">Types:</string>
+    <string name="activity_ViewPokemon_txtTypes_No_Type">This pokémon doesn\'t have a type</string>
+    <string name="activity_ViewPokemon_txtAbilities">Ability:</string>
+    <string name="activity_ViewPokemon_txtAbilities_Plural">Abilities:</string>
+    <string name="activity_ViewPokemon_txtAbilities_No_Type">This pokémon doesn\'t have an ability</string>
+    <string name="activity_ViewPokemon_txtHiddenAbilities">Hidden Ability:</string>
+    <string name="activity_ViewPokemon_txtHiddenAbilities_Plural">Hidden Abilities:</string>
+    <string name="activity_ViewPokemon_txtHiddenAbilities_No_Type">This pokémon doesn\'t have a hidden ability</string>
+    <string-array name="activity_ViewPokemon_txtStats">
+        <item>Base HP:</item>
+        <item>Base Attack:</item>
+        <item>Base Defense:</item>
+        <item>Base Sp. Atk.:</item>
+        <item>Base Sp. Def.:</item>
+        <item>Base Speed:</item>
+    </string-array>
+
+    <string-array name="array_link_pokemon_to">
+        <item>Type</item>
+        <item>Ability</item>
+        <item>Hidden Ability</item>
+        <item>Move</item>
+        <item>Evolution</item>
+        <item>Form</item>
+    </string-array>
+
+    <string-array name="link_pokemon_title">
+        <item>Link Pokémon to Type</item>
+        <item>Link Pokémon to Ability</item>
+        <item>Link Pokémon to Hidden Ability</item>
+        <item>Link Pokémon to Move</item>
+        <item>Link Pokémon to Evolution</item>
+        <item>Link Pokémon to Form</item>
+    </string-array>
+
+    <string name="dialog_link_pokemon">Pokémon: </string>
+    <string name="dialog_link_pokemon_to_move_spinner_default"> = Pick a move = </string>
+    <string name="dialog_link_pokemon_to_move_spinner">Move list</string>
+    <string name="dialog_link_pokemon_to_evolution_spinner_default"> = Pick a pokémon = </string>
+    <string name="dialog_link_pokemon_to_evolution_spinner">Pokémon list</string>
+    <string name="dialog_link_pokemon_to_form_spinner_default"> = Pick a pokémon = </string>
+    <string name="dialog_link_pokemon_to_form_spinner">Pokémon list</string>
+    <string name="dialog_link_pokemon_to_move_failed">already knew this move by</string>
+    <string name="dialog_link_pokemon_to_move_method">Learning Method</string>
+    <string name="dialog_link_pokemon_to_evolution_method">Evolution Method</string>
+    <string name="dialog_link_pokemon_to_form_method">Form Method</string>
+    <string name="dialog_link_pokemon_to_form_kind">Form Kind</string>
+
+    <string name="dialog_unlink_pokemon_move_title">Unlink Pokémon Move?</string>
+    <string name="dialog_unlink_pokemon_move_message">Are you sure you want to unlink this pokémon move?</string>
+    <string name="dialog_unlink_pokemon_evolution_title">Unlink Pokémon Evolution?</string>
+    <string name="dialog_unlink_pokemon_evolution_message">Are you sure you want to unlink this pokémon evolution?</string>
+    <string name="dialog_unlink_pokemon_form_title">Unlink Pokémon Form?</string>
+    <string name="dialog_unlink_pokemon_form_message">Are you sure you want to unlink this pokémon form?</string>
+
+    <string-array name="array_link_type_to">
+        <item>Pokémon</item>
+        <item>Move</item>
+    </string-array>
+
+    <string-array name="link_type_title">
+        <item>Link Type to Pokémon</item>
+        <item>Link Type to Move</item>
+    </string-array>
+
+    <string name="dialog_link_type">Type: </string>
+
+    <string-array name="array_link_ability_to">
+        <item>Pokémon (Normal)</item>
+        <item>Pokémon (Hidden)</item>
+    </string-array>
+
+    <string-array name="link_ability_title">
+        <item>Link Normal Ability to Pokémon</item>
+        <item>Link Hidden Ability to Pokémon</item>
+    </string-array>
+
+    <string name="dialog_link_ability">Ability: </string>
+
+    <string-array name="array_link_move_to">
+        <item>Pokémon</item>
+        <item>Type</item>
+    </string-array>
+
+    <string-array name="link_move_title">
+        <item>Link Move to Pokémon</item>
+        <item>Link Move to Type</item>
+    </string-array>
+
+    <string name="dialog_link_move">Move: </string>
+    <string name="dialog_link_move_method">Learning Method</string>
+    <string name="dialog_link_move_spinner">Pokémon list</string>
+    <string name="dialog_link_move_spinner_default"> = Pick a pokémon = </string>
+    <string name="dialog_link_move_failed">already knew this move by</string>
+
+    <string name="link_success">New link created successfully</string>
+
+    <string name="unlink_move_title">Unlink Pokémon Move</string>
+</resources>
